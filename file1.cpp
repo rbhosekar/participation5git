@@ -1,7 +1,2 @@
-#include <iostream>
-
-int main() {
-    // Line 10 here
-    std::cout << "Hello from Branch 1!" << std::endl;
-    return 0;
-}
+touch file1.cpp
+echo "// This is a dummy C++ file" > file1.cpp
