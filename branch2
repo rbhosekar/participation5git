@@ -1,1 +1,4 @@
 git checkout -b branch2
+echo "cout << 'Hello from branch2!';" > file1.cpp
+git add file1.cpp
+git commit -m "Edit line 10 in file1.cpp on branch2"
